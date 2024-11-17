@@ -1,4 +1,4 @@
-# (862. Shortest Subarray with Sum at Least K)[https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k]
+# [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k)
 
 __Type:__ Hard <br>
 __Topics:__ Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue <br>
