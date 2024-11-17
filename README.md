@@ -100,7 +100,7 @@
     - ### Time Complexity
         - **Outer loop**: Runs `n` times, where `n` is the length of the array.
         - **Inner loop**: For each starting index, the inner loop runs up to `n - i` times, where `i` is the current index in the outer loop.
-        - **Worst-case time complexity**: The total number of iterations is O(n^2), because for each element in the array, we may potentially iterate over all remaining elements.
+        - **Worst-case time complexity**: The total number of iterations is O(n<sup>2</sup>), because for each element in the array, we may potentially iterate over all remaining elements.
         - **Time Complexity:**  **O(n<sup>2</sup>)** where `n` is the size of the input array.
 
     - ### Space Complexity
