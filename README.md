@@ -1,6 +1,6 @@
 - ## Approach 2:- Prefix Sum Approach using Monotonic Queue
     - ### Intuition
-        We are tasked with finding a contiguous subarray whose sum is greater than or equal to `k`. A brute-force approach would involve checking all possible subarrays, calculating their sums, and tracking the shortest one that meets the condition. However, this would take **O(n^2)** time, which could be too slow for large input sizes.
+        We are tasked with finding a contiguous subarray whose sum is greater than or equal to `k`. A brute-force approach would involve checking all possible subarrays, calculating their sums, and tracking the shortest one that meets the condition. However, this would take **O(n<sup>2</sup>)** time, which could be too slow for large input sizes.
 
         Instead, we can use a **sliding window** or **prefix sum** technique along with a **monotonic deque** to improve efficiency. The basic idea is to keep track of the cumulative sum (prefix sum) and use a deque to efficiently find the shortest subarray whose sum meets or exceeds `k`. 
 
