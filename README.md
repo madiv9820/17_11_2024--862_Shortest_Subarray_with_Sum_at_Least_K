@@ -1,4 +1,4 @@
-- ## Approach 2:- Monotonic Queue
+- ## Approach 2:- Prefix using Monotonic Queue
     - ### Intuition
         We are tasked with finding a contiguous subarray whose sum is greater than or equal to `k`. A brute-force approach would involve checking all possible subarrays, calculating their sums, and tracking the shortest one that meets the condition. However, this would take **O(n^2)** time, which could be too slow for large input sizes.
 
@@ -130,7 +130,7 @@
                 }
             };
             ```
-            
+
     - ### Time Complexity
         - **Outer loop**: We iterate through each element of the array once.
         - **Deque operations**: Each element is pushed and popped from the deque at most once.
